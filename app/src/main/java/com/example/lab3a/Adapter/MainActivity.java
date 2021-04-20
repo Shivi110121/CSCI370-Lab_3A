@@ -7,6 +7,8 @@ import android.widget.ListView;
 
 import java.util.ArrayList;
 
+import com.example.lab3a.R;
+
 public class MainActivity extends AppCompatActivity {
 
     private ListView student;
@@ -67,11 +69,11 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
 
-        student1 = new Student("Spencer", "Lukehart", "CITA");
-        student2 = new Student("Matt", "Walt", "CSCI");
-        student3 = new Student("Winston", "Churchill", "Politics");
-        student4 =  new Student("Abraham", "Lincoln", "Math");
-        student5 = new Student("George", "Washington", "Leadership");
+        student1 = new Student("Shivani", "Patel", "CSCI");
+        student2 = new Student("Jane", "Doe", "DS");
+        student3 = new Student("Joe", "Dane", "CITA");
+        student4 =  new Student("Alexendra", "Grey", "Politics");
+        student5 = new Student("George", "James", "Math");
 
         ArrayList<Student> studentArray = new ArrayList<>();
         studentArray.add(student1);
